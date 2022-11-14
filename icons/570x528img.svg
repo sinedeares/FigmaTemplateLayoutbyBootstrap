@@ -1,0 +1,10 @@
+<svg width="570" height="528" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="#EEEEEE" rx="7" height="528" width="570"/>
+  <g>
+   <path fill="#D9D9D9" d="m261,246l48,0l0,36l-48,0l0,-36zm44,4l0,28l-40,0l0,-28l40,0zm-31,4c-1.656,0 -3,1.344 -3,3c0,1.658 1.344,3 3,3c1.656,0 3,-1.342 3,-3c0,-1.656 -1.344,-3 -3,-3zm9.962,12l5.038,-8l10,16l-28,0l8,-11.92l4.962,3.92z" clip-rule="evenodd" fill-rule="evenodd"/>
+  </g>
+ </g>
+</svg>

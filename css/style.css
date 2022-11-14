@@ -1,0 +1,243 @@
+:root{
+ --colorLast: #999999;
+}
+
+.colorLast{
+    color: var(--colorLast);
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    min-height: 80px;
+    /*padding: 10px 135px;*/
+}
+section{
+    padding: 100px 0;
+}
+
+.graytext{
+    color: var(--colorLast);
+}
+
+.media{
+    background: #EEEEEE;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 100px 100px 100px 100px;
+    border-color: transparent;
+}
+
+.work-background{
+    background: #EEEEEE;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 50px 20px 50px 20px;
+    border-color: transparent;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, [col] 1fr);
+    grid-template-rows: repeat(8, [row] 1fr);
+    border: 1px solid white;
+    grid-gap: 10px;
+}
+
+.grid-item{
+    min-height:180px;
+}
+
+.grid-item1{
+    background-color: #EEEEEE;
+    grid-column: span 2;
+    grid-row: span 4;
+}
+
+.grid-item2{
+    background-color: #EEEEEE;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grid-item3{
+    background-color: #EEEEEE;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.grid-item4{
+    background-color: #EEEEEE;
+    grid-column: span 2;
+    grid-row: span 6;
+}
+
+.grid-item5{
+    background-color: #EEEEEE;
+    grid-column: span 2;
+    grid-row: span 4;
+}
+
+.grid-item6{
+    background-color: #EEEEEE;
+    grid-column: span 2;
+    grid-row: span 3;
+}
+
+.mybtn{
+    border: 1px solid #DEDEDE;
+    color: #999999;
+    background: white;
+}
+
+.mybtn:hover{
+    color: white;
+    background-color: #0076FF
+}
+
+.mybtn:hover > svg{
+    fill:white;
+}
+
+.card-body > p{
+    transition: color 0.5s;
+}
+
+.card-body:hover { background-color: #0076ff}{
+}
+.card-body:hover > p{color: white}
+
+.card-body:hover > h2 {color: white}
+.card-body:hover > h5 {color: white}
+
+.card-body:hover > .buyBtn{
+    color: black;
+    background-color: #FFBE00;
+}
+
+.left {
+    position: relative;
+    z-index: 2;
+
+}
+
+.right {
+}
+
+
+.carousel-indicators > button {
+    border: 4px solid transparent !important;
+    background-color: #9B9B9B !important;
+    border-radius: 100% !important;
+    overflow: hidden !important;
+    margin: 0 8px !important;
+    width: 12px !important;
+    height: 12px !important
+}
+
+.carousel-indicators > .active{
+    border: 4px solid #0076FF !important;
+    background-color: white !important;
+    border-radius: 100% !important;
+    overflow: hidden !important;
+    margin: 0 8px !important;
+    width: 12px !important;
+    height: 12px !important
+}
+
+
+.testimonials{
+    object-fit: contain;
+    background-image: url("../icons/605x640img.svg");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+/*.testimonial-image{
+    z-index: -1;
+}*/
+
+
+.testimonials-border{
+    border: 1px solid #eeeeee;
+}
+
+.pw-text{
+    font-size: 52px;
+}
+
+.yaks{
+    background: #EEEEEE;
+}
+
+footer{
+    background: #DEDEDE;
+}
+
+.footer-text{
+    font-size: 16px;
+    color: var(--colorLast);
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.icons{
+    padding-bottom: 25px;
+}
+
+
+@media screen and (max-width: 576px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(22, [row] 1fr);
+        border: 1px solid white;
+        grid-gap: 10px;
+    }
+
+    .grid-item1{
+        background-color: #EEEEEE;
+        grid-row: span 4;
+    }
+
+    .grid-item2{
+        background-color: #EEEEEE;
+        grid-row: span 2;
+    }
+
+    .grid-item3{
+        background-color: #EEEEEE;
+        grid-row: span 3;
+    }
+
+    .grid-item4{
+        background-color: #EEEEEE;
+        grid-row: span 6;
+    }
+
+    .grid-item5{
+        background-color: #EEEEEE;
+        grid-row: span 4;
+    }
+
+    .grid-item6{
+        background-color: #EEEEEE;
+        grid-row: span 3;
+    }
+
+    .testimonials{
+        object-fit: contain;
+        background-image: url("../icons/470img.svg");
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .testimonials-border{
+        border: 1px solid #eeeeee;
+    }
+
+    .text-margin{
+        padding-top: 50px;
+    }
+}
